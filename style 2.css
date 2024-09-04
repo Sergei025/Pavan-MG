@@ -1,0 +1,356 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#bag1 {
+    margin: 49px auto;
+    width: 1200px;
+}
+.logo {
+    
+}
+#menu {
+    float: right;
+    list-style: none;
+}
+#menu .reh {
+    margin-top: 8px;
+    position: relative;
+    float: left;
+    margin-right: 60px;
+}
+#menu .her {
+    margin-top: 8px;
+    position: relative;
+    float: left;
+}
+#menu li a {
+    color: rgba(102, 102, 102, 1);
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "DM Sans";
+    text-decoration: none;
+}
+.brows {
+    margin-top: 2px;
+    position: relative;
+    float: left;
+    margin-left: 45px;
+}
+.brows img {
+    margin-left: 13px;
+    cursor: pointer;
+}
+#bag2 {
+    width: 1200px;
+    margin: 0px auto;
+    display: flex;
+    margin-top: 220px;
+    justify-content: space-between;
+}
+.text {
+    margin-top: 45px;
+    width: 620px;
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 70px;
+    color: rgba(66, 68, 110, 1);
+}
+.gradient-text {
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 70px;
+    background: linear-gradient(90deg, #13B0F5 -2.06%, #E70FAA 220%); 
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+#bag3 {
+    width: 1200px;
+    margin: 0px auto;
+    margin-top: 320px;
+}
+.tech {
+    text-align: center;
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 26px;
+    color: rgba(66, 68, 110, 1);
+}
+.tehno {
+    text-align: center;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 26px;
+    color: rgba(102, 102, 102, 1);
+    margin-top: 50px;
+}
+#grid {
+    display: grid;
+    width: 1200px;
+    grid-template-columns: 200px 200px 200px 200px 200px 200px;
+    margin-top: 100px;
+}
+#grid div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+}
+#bag4 {
+    width: 1200px;
+    margin: 0px auto;
+    margin-top: 200px;
+}
+#grid1 {
+    display: grid;
+    grid-template-columns: 375px 375px 375px;
+    column-gap: 37px;
+    row-gap: 50px;
+    margin-top: 100px;
+}
+#grid1 div {
+    width: 375px;
+    height: 567px;
+    box-shadow: 2px 2px 100px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+.proj {
+    width: 314px;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 26px;
+    margin: 0px auto;
+    margin-top: 20px;
+    color: rgba(0, 0, 0, 1);
+}
+.this {
+    width: 314px;
+    font-family: "Poppins";
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    margin: 0px auto;
+    margin-top: 16px;
+    color: rgba(102, 102, 102, 1);
+}
+.stack {
+    width: 314px;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(66, 68, 110, 1);
+    margin: 0px auto;
+    margin-top: 15px;
+}
+.java {
+    font-family: "Poppins";
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 26px;
+    color: rgba(66, 68, 110, 1);
+}
+
+.min {
+    width: 314px;
+    margin: 0px auto;
+    margin-top: 15px;
+}
+.chain a {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 1);
+    margin-left: 30px;
+}
+.chan {
+    position: absolute;
+    margin-top: 2px;
+}
+.fil { 
+    position: absolute;
+    margin-top: 3px;
+    margin-left: 50px;
+}
+.fill a {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 1);
+    margin-left: 80px;
+}
+#bag5 {
+    margin: 0px auto;
+    margin-top: 200px;
+    width: 1200px;
+}
+.info {
+    position: relative;
+    display: flex;
+    float: right;
+    margin-top: 20px;
+}
+.cek {
+    font-family: "DM Sans";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    cursor: pointer;
+}
+.exa {
+    font-family: "DM Sans";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px; 
+    margin-left: 60px;
+    margin-right: 70px;
+    cursor: pointer;
+}
+.images img {
+    margin-left: 13px;
+    cursor: pointer;
+}
+#border {
+    width: 1200px;
+    height: 2px;
+    opacity: 30%;
+    background-color: rgba(102, 102, 102, 1);
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+.nav {
+}
+.menu {
+    float: left;
+    list-style: none;
+    margin-bottom: 50px;
+}
+.menu li {
+    position: relative;
+    float: left;
+}
+.menu li a {
+    font-family: "DM Sans";
+    font-weight: 400;
+    font-size: 18px;
+    text-decoration: none;
+    color: rgba(66, 68, 110, 1);
+    margin-right: 50px;
+}
+.menu li .gies {
+    font-family: "DM Sans";
+    font-weight: 400;
+    font-size: 18px;
+    text-decoration: none;
+    color: rgba(66, 68, 110, 1);
+    margin-right: 50px;
+}
+.design {
+    float: right;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(21, 20, 57, 0.4);
+}
+.mg {
+    background: linear-gradient(90deg, #7D60D0 -0.01%, #E70FAA 300%); 
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.love {
+    background: linear-gradient(90deg, #7D60D0 5.01%, #E70FAA 120.06%); 
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.coffee {
+    background: linear-gradient(90deg, #7D60D0 0.01%, #E70FAA -0.06%); 
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+@media (max-width: 1200px) {
+    #bag1 {
+        width: 1000px;
+    }
+    #bag2 {
+        width: 1000px;
+    }
+    #bag3 {
+        width: 800px;
+    }
+    #grid {
+        width: 800px;
+        grid-template-columns: 200px 200px 200px 200px;
+    }
+    #bag4 {
+        width: 800px;
+    }
+    #grid1 {
+        grid-template-columns: 375px 375px;
+    }
+    #bag5 {
+        width: 1000px;
+    }
+    #border {
+        width: 1000px;
+    }
+    .menu {
+        width: 400px;
+    }
+    .dvig {
+        margin-left: 60px;
+        margin-top: 10px;
+    }
+    .dvig1 {
+        margin-top: 10px;
+    }
+}
+@media (max-width: 1000px) {
+    #bag1 {
+        width: 800px;
+    }
+    #menu .reh {
+        margin-right: 25px;
+    }
+    .brows {
+        margin-left: 25px;
+    }
+    #menu li a {
+        font-size: 22px;
+    }
+    #bag2 {
+        width: 800px;
+    }
+    .text {
+        width: 433px;
+        font-size: 40px;
+    }
+    .gradient-text {
+        font-size: 40px;
+    }
+    #bag5 {
+        width: 800px;
+    }
+    #border {
+        width: 800px;
+    }
+    .menu {
+        width: 330px;
+    }
+    .menu li .gies {
+        margin-right: 0px;
+    }
+}
